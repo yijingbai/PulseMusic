@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35F3EC01C7A0F320025F609 /* 7Lions - Born 2 Run.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D35F3EBF1C7A0F320025F609 /* 7Lions - Born 2 Run.mp3 */; };
+		D37E69D01C79F693002714BC /* Path of Loneliness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69BD1C79F693002714BC /* Path of Loneliness.mp3 */; };
+		D37E69D11C79F693002714BC /* The silent Force.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69BE1C79F693002714BC /* The silent Force.mp3 */; };
+		D37E69D21C79F693002714BC /* Neverending Dream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69BF1C79F693002714BC /* Neverending Dream.mp3 */; };
+		D37E69D31C79F693002714BC /* Twilight Poem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C01C79F693002714BC /* Twilight Poem.mp3 */; };
+		D37E69D41C79F693002714BC /* Battle at the misty valley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C11C79F693002714BC /* Battle at the misty valley.mp3 */; };
+		D37E69D51C79F693002714BC /* Dawn of a New Era.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C21C79F693002714BC /* Dawn of a New Era.mp3 */; };
+		D37E69D61C79F693002714BC /* High Hopes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C31C79F693002714BC /* High Hopes.mp3 */; };
+		D37E69D71C79F693002714BC /* Intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C41C79F693002714BC /* Intro.mp3 */; };
+		D37E69D81C79F693002714BC /* Breath of Freedom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C51C79F693002714BC /* Breath of Freedom.mp3 */; };
+		D37E69D91C79F693002714BC /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C71C79F693002714BC /* list.png */; };
+		D37E69DA1C79F693002714BC /* listS.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C81C79F693002714BC /* listS.png */; };
+		D37E69DB1C79F693002714BC /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69C91C79F693002714BC /* next.png */; };
+		D37E69DC1C79F693002714BC /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69CA1C79F693002714BC /* pause.png */; };
+		D37E69DD1C79F693002714BC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69CB1C79F693002714BC /* play.png */; };
+		D37E69DE1C79F693002714BC /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E69CC1C79F693002714BC /* previous.png */; };
+		D37E69E01C79F693002714BC /* list.plist in Resources */ = {isa = PBXBuildFile; fileRef = D37E69CE1C79F693002714BC /* list.plist */; };
+		D386935E1C784000004F125B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386935D1C784000004F125B /* AppDelegate.swift */; };
+		D38693671C784000004F125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38693651C784000004F125B /* Main.storyboard */; };
+		D38693691C784000004F125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38693681C784000004F125B /* Assets.xcassets */; };
+		D386936C1C784000004F125B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D386936A1C784000004F125B /* LaunchScreen.storyboard */; };
+		D38693771C784000004F125B /* PulseMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693761C784000004F125B /* PulseMusicTests.swift */; };
+		D38693821C784000004F125B /* PulseMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693811C784000004F125B /* PulseMusicUITests.swift */; };
+		D38693971C784113004F125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38693961C784113004F125B /* Assets.xcassets */; };
+		D386939E1C784113004F125B /* PulseMusicWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D386939D1C784113004F125B /* PulseMusicWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D38693A91C784113004F125B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693A81C784113004F125B /* NotificationController.swift */; };
+		D38693AB1C784113004F125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38693AA1C784113004F125B /* Assets.xcassets */; };
+		D38693AF1C784113004F125B /* PulseMusicWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D38693911C784113004F125B /* PulseMusicWatch.app */; };
+		D38693B91C784270004F125B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38693B81C784270004F125B /* HealthKit.framework */; };
+		D38693C11C7848B9004F125B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693C01C7848B9004F125B /* ViewController.swift */; };
+		D38693C41C7848DD004F125B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693C21C7848DD004F125B /* InterfaceController.swift */; };
+		D38693C51C7848DD004F125B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38693C31C7848DD004F125B /* ExtensionDelegate.swift */; };
+		D38693C71C78491A004F125B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38693C61C78491A004F125B /* Interface.storyboard */; };
+		D38693C91C784A9A004F125B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38693C81C784A9A004F125B /* HealthKit.framework */; };
+		D38693CC1C78C931004F125B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38693CB1C78C931004F125B /* WatchConnectivity.framework */; };
+		D38693CE1C78C93E004F125B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38693CD1C78C93E004F125B /* WatchConnectivity.framework */; };
+		D3E559631C791A7300FBB37F /* APChartView in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E559621C791A7300FBB37F /* APChartView */; settings = {ATTRIBUTES = (Required, ); }; };
+		D3E559751C791C0500FBB37F /* APChartLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E559701C791C0500FBB37F /* APChartLine.swift */; };
+		D3E559761C791C0500FBB37F /* APChartMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E559711C791C0500FBB37F /* APChartMarker.swift */; };
+		D3E559771C791C0500FBB37F /* APChartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E559721C791C0500FBB37F /* APChartPoint.swift */; };
+		D3E559781C791C0500FBB37F /* APChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E559731C791C0500FBB37F /* APChartView.swift */; };
+		D3E559791C791C0500FBB37F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E559741C791C0500FBB37F /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38693731C784000004F125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38693521C784000004F125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38693591C784000004F125B;
+			remoteInfo = PulseMusic;
+		};
+		D386937E1C784000004F125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38693521C784000004F125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38693591C784000004F125B;
+			remoteInfo = PulseMusic;
+		};
+		D386939F1C784113004F125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38693521C784000004F125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D386939C1C784113004F125B;
+			remoteInfo = "PulseMusicWatch Extension";
+		};
+		D38693AD1C784113004F125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38693521C784000004F125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38693901C784113004F125B;
+			remoteInfo = PulseMusicWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D38693B31C784113004F125B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D386939E1C784113004F125B /* PulseMusicWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38693B71C784113004F125B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D38693AF1C784113004F125B /* PulseMusicWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		015DA39AFD29727B3B3800DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E4587D877FC3BA68135829 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35F3EBF1C7A0F320025F609 /* 7Lions - Born 2 Run.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7Lions - Born 2 Run.mp3"; sourceTree = "<group>"; };
+		D37E69BD1C79F693002714BC /* Path of Loneliness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Path of Loneliness.mp3"; sourceTree = "<group>"; };
+		D37E69BE1C79F693002714BC /* The silent Force.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The silent Force.mp3"; sourceTree = "<group>"; };
+		D37E69BF1C79F693002714BC /* Neverending Dream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Neverending Dream.mp3"; sourceTree = "<group>"; };
+		D37E69C01C79F693002714BC /* Twilight Poem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Twilight Poem.mp3"; sourceTree = "<group>"; };
+		D37E69C11C79F693002714BC /* Battle at the misty valley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Battle at the misty valley.mp3"; sourceTree = "<group>"; };
+		D37E69C21C79F693002714BC /* Dawn of a New Era.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dawn of a New Era.mp3"; sourceTree = "<group>"; };
+		D37E69C31C79F693002714BC /* High Hopes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "High Hopes.mp3"; sourceTree = "<group>"; };
+		D37E69C41C79F693002714BC /* Intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Intro.mp3; sourceTree = "<group>"; };
+		D37E69C51C79F693002714BC /* Breath of Freedom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Breath of Freedom.mp3"; sourceTree = "<group>"; };
+		D37E69C71C79F693002714BC /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		D37E69C81C79F693002714BC /* listS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listS.png; sourceTree = "<group>"; };
+		D37E69C91C79F693002714BC /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		D37E69CA1C79F693002714BC /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		D37E69CB1C79F693002714BC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		D37E69CC1C79F693002714BC /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		D37E69CE1C79F693002714BC /* list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = list.plist; sourceTree = "<group>"; };
+		D386935A1C784000004F125B /* PulseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D386935D1C784000004F125B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D38693661C784000004F125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D38693681C784000004F125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D386936B1C784000004F125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D386936D1C784000004F125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38693721C784000004F125B /* PulseMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38693761C784000004F125B /* PulseMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMusicTests.swift; sourceTree = "<group>"; };
+		D38693781C784000004F125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D386937D1C784000004F125B /* PulseMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38693811C784000004F125B /* PulseMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseMusicUITests.swift; sourceTree = "<group>"; };
+		D38693831C784000004F125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38693911C784113004F125B /* PulseMusicWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseMusicWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38693961C784113004F125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38693981C784113004F125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D386939D1C784113004F125B /* PulseMusicWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PulseMusicWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38693A31C784113004F125B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D38693A81C784113004F125B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D38693AA1C784113004F125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38693AC1C784113004F125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38693B81C784270004F125B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		D38693BA1C784270004F125B /* PulseMusicWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PulseMusicWatch Extension.entitlements"; sourceTree = "<group>"; };
+		D38693BB1C784279004F125B /* PulseMusicWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PulseMusicWatch.entitlements; sourceTree = "<group>"; };
+		D38693C01C7848B9004F125B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D38693C21C7848DD004F125B /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D38693C31C7848DD004F125B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D38693C61C78491A004F125B /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		D38693C81C784A9A004F125B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		D38693CA1C784A9A004F125B /* PulseMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PulseMusic.entitlements; sourceTree = "<group>"; };
+		D38693CB1C78C931004F125B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		D38693CD1C78C93E004F125B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.1.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		D3E559621C791A7300FBB37F /* APChartView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = APChartView; path = "../../Downloads/APLineChart-master/APLineChart/APChartView"; sourceTree = "<group>"; };
+		D3E559701C791C0500FBB37F /* APChartLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APChartLine.swift; sourceTree = "<group>"; };
+		D3E559711C791C0500FBB37F /* APChartMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APChartMarker.swift; sourceTree = "<group>"; };
+		D3E559721C791C0500FBB37F /* APChartPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APChartPoint.swift; sourceTree = "<group>"; };
+		D3E559731C791C0500FBB37F /* APChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APChartView.swift; sourceTree = "<group>"; };
+		D3E559741C791C0500FBB37F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D57377E5B36AC0365F1F9F36 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38693571C784000004F125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E559631C791A7300FBB37F /* APChartView in Frameworks */,
+				D38693CC1C78C931004F125B /* WatchConnectivity.framework in Frameworks */,
+				D38693C91C784A9A004F125B /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386936F1C784000004F125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386937A1C784000004F125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386939A1C784113004F125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693CE1C78C93E004F125B /* WatchConnectivity.framework in Frameworks */,
+				D38693B91C784270004F125B /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E2353DA14BEDF7732723C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				015DA39AFD29727B3B3800DE /* Pods.debug.xcconfig */,
+				D57377E5B36AC0365F1F9F36 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD5572BC3DD4EED5326807BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E559621C791A7300FBB37F /* APChartView */,
+				C2E4587D877FC3BA68135829 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37E69C61C79F693002714BC /* music */ = {
+			isa = PBXGroup;
+			children = (
+				D37E69BD1C79F693002714BC /* Path of Loneliness.mp3 */,
+				D37E69BE1C79F693002714BC /* The silent Force.mp3 */,
+				D35F3EBF1C7A0F320025F609 /* 7Lions - Born 2 Run.mp3 */,
+				D37E69BF1C79F693002714BC /* Neverending Dream.mp3 */,
+				D37E69C01C79F693002714BC /* Twilight Poem.mp3 */,
+				D37E69C11C79F693002714BC /* Battle at the misty valley.mp3 */,
+				D37E69C21C79F693002714BC /* Dawn of a New Era.mp3 */,
+				D37E69C31C79F693002714BC /* High Hopes.mp3 */,
+				D37E69C41C79F693002714BC /* Intro.mp3 */,
+				D37E69C51C79F693002714BC /* Breath of Freedom.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		D37E69CF1C79F693002714BC /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				D37E69C61C79F693002714BC /* music */,
+				D37E69C71C79F693002714BC /* list.png */,
+				D37E69C81C79F693002714BC /* listS.png */,
+				D37E69C91C79F693002714BC /* next.png */,
+				D37E69CA1C79F693002714BC /* pause.png */,
+				D37E69CB1C79F693002714BC /* play.png */,
+				D37E69CC1C79F693002714BC /* previous.png */,
+				D37E69CE1C79F693002714BC /* list.plist */,
+			);
+			name = Asset;
+			path = "../../../Downloads/Music-Player-master/Music Player";
+			sourceTree = "<group>";
+		};
+		D38693511C784000004F125B = {
+			isa = PBXGroup;
+			children = (
+				D38693CD1C78C93E004F125B /* WatchConnectivity.framework */,
+				D38693CB1C78C931004F125B /* WatchConnectivity.framework */,
+				D38693C81C784A9A004F125B /* HealthKit.framework */,
+				D38693B81C784270004F125B /* HealthKit.framework */,
+				D386935C1C784000004F125B /* PulseMusic */,
+				D38693751C784000004F125B /* PulseMusicTests */,
+				D38693801C784000004F125B /* PulseMusicUITests */,
+				D38693921C784113004F125B /* PulseMusicWatch */,
+				D38693A11C784113004F125B /* PulseMusicWatch Extension */,
+				D386935B1C784000004F125B /* Products */,
+				A4E2353DA14BEDF7732723C9 /* Pods */,
+				AD5572BC3DD4EED5326807BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D386935B1C784000004F125B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D386935A1C784000004F125B /* PulseMusic.app */,
+				D38693721C784000004F125B /* PulseMusicTests.xctest */,
+				D386937D1C784000004F125B /* PulseMusicUITests.xctest */,
+				D38693911C784113004F125B /* PulseMusicWatch.app */,
+				D386939D1C784113004F125B /* PulseMusicWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D386935C1C784000004F125B /* PulseMusic */ = {
+			isa = PBXGroup;
+			children = (
+				D37E69CF1C79F693002714BC /* Asset */,
+				D38693CA1C784A9A004F125B /* PulseMusic.entitlements */,
+				D3E559701C791C0500FBB37F /* APChartLine.swift */,
+				D3E559711C791C0500FBB37F /* APChartMarker.swift */,
+				D3E559721C791C0500FBB37F /* APChartPoint.swift */,
+				D3E559731C791C0500FBB37F /* APChartView.swift */,
+				D3E559741C791C0500FBB37F /* Utils.swift */,
+				D386935D1C784000004F125B /* AppDelegate.swift */,
+				D38693C01C7848B9004F125B /* ViewController.swift */,
+				D38693651C784000004F125B /* Main.storyboard */,
+				D38693681C784000004F125B /* Assets.xcassets */,
+				D386936A1C784000004F125B /* LaunchScreen.storyboard */,
+				D386936D1C784000004F125B /* Info.plist */,
+			);
+			path = PulseMusic;
+			sourceTree = "<group>";
+		};
+		D38693751C784000004F125B /* PulseMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38693761C784000004F125B /* PulseMusicTests.swift */,
+				D38693781C784000004F125B /* Info.plist */,
+			);
+			path = PulseMusicTests;
+			sourceTree = "<group>";
+		};
+		D38693801C784000004F125B /* PulseMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38693811C784000004F125B /* PulseMusicUITests.swift */,
+				D38693831C784000004F125B /* Info.plist */,
+			);
+			path = PulseMusicUITests;
+			sourceTree = "<group>";
+		};
+		D38693921C784113004F125B /* PulseMusicWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D38693BB1C784279004F125B /* PulseMusicWatch.entitlements */,
+				D38693C61C78491A004F125B /* Interface.storyboard */,
+				D38693961C784113004F125B /* Assets.xcassets */,
+				D38693981C784113004F125B /* Info.plist */,
+			);
+			path = PulseMusicWatch;
+			sourceTree = "<group>";
+		};
+		D38693A11C784113004F125B /* PulseMusicWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D38693C21C7848DD004F125B /* InterfaceController.swift */,
+				D38693C31C7848DD004F125B /* ExtensionDelegate.swift */,
+				D38693BA1C784270004F125B /* PulseMusicWatch Extension.entitlements */,
+				D38693A81C784113004F125B /* NotificationController.swift */,
+				D38693AA1C784113004F125B /* Assets.xcassets */,
+				D38693AC1C784113004F125B /* Info.plist */,
+				D38693A21C784113004F125B /* Supporting Files */,
+			);
+			path = "PulseMusicWatch Extension";
+			sourceTree = "<group>";
+		};
+		D38693A21C784113004F125B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D38693A31C784113004F125B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38693591C784000004F125B /* PulseMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38693861C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusic" */;
+			buildPhases = (
+				D38693561C784000004F125B /* Sources */,
+				D38693571C784000004F125B /* Frameworks */,
+				D38693581C784000004F125B /* Resources */,
+				D38693B71C784113004F125B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38693AE1C784113004F125B /* PBXTargetDependency */,
+			);
+			name = PulseMusic;
+			productName = PulseMusic;
+			productReference = D386935A1C784000004F125B /* PulseMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38693711C784000004F125B /* PulseMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38693891C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusicTests" */;
+			buildPhases = (
+				D386936E1C784000004F125B /* Sources */,
+				D386936F1C784000004F125B /* Frameworks */,
+				D38693701C784000004F125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38693741C784000004F125B /* PBXTargetDependency */,
+			);
+			name = PulseMusicTests;
+			productName = PulseMusicTests;
+			productReference = D38693721C784000004F125B /* PulseMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D386937C1C784000004F125B /* PulseMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D386938C1C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusicUITests" */;
+			buildPhases = (
+				D38693791C784000004F125B /* Sources */,
+				D386937A1C784000004F125B /* Frameworks */,
+				D386937B1C784000004F125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D386937F1C784000004F125B /* PBXTargetDependency */,
+			);
+			name = PulseMusicUITests;
+			productName = PulseMusicUITests;
+			productReference = D386937D1C784000004F125B /* PulseMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D38693901C784113004F125B /* PulseMusicWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38693B41C784113004F125B /* Build configuration list for PBXNativeTarget "PulseMusicWatch" */;
+			buildPhases = (
+				D386938F1C784113004F125B /* Resources */,
+				D38693B31C784113004F125B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38693A01C784113004F125B /* PBXTargetDependency */,
+			);
+			name = PulseMusicWatch;
+			productName = PulseMusicWatch;
+			productReference = D38693911C784113004F125B /* PulseMusicWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D386939C1C784113004F125B /* PulseMusicWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38693B01C784113004F125B /* Build configuration list for PBXNativeTarget "PulseMusicWatch Extension" */;
+			buildPhases = (
+				D38693991C784113004F125B /* Sources */,
+				D386939A1C784113004F125B /* Frameworks */,
+				D386939B1C784113004F125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulseMusicWatch Extension";
+			productName = "PulseMusicWatch Extension";
+			productReference = D386939D1C784113004F125B /* PulseMusicWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38693521C784000004F125B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yijing Bai";
+				TargetAttributes = {
+					D38693591C784000004F125B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 99LXJCWG66;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					D38693711C784000004F125B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 99LXJCWG66;
+						TestTargetID = D38693591C784000004F125B;
+					};
+					D386937C1C784000004F125B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 99LXJCWG66;
+						TestTargetID = D38693591C784000004F125B;
+					};
+					D38693901C784113004F125B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 99LXJCWG66;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D386939C1C784113004F125B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 99LXJCWG66;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D38693551C784000004F125B /* Build configuration list for PBXProject "PulseMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38693511C784000004F125B;
+			productRefGroup = D386935B1C784000004F125B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38693591C784000004F125B /* PulseMusic */,
+				D38693711C784000004F125B /* PulseMusicTests */,
+				D386937C1C784000004F125B /* PulseMusicUITests */,
+				D38693901C784113004F125B /* PulseMusicWatch */,
+				D386939C1C784113004F125B /* PulseMusicWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38693581C784000004F125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37E69E01C79F693002714BC /* list.plist in Resources */,
+				D37E69D51C79F693002714BC /* Dawn of a New Era.mp3 in Resources */,
+				D37E69DD1C79F693002714BC /* play.png in Resources */,
+				D37E69D61C79F693002714BC /* High Hopes.mp3 in Resources */,
+				D386936C1C784000004F125B /* LaunchScreen.storyboard in Resources */,
+				D37E69DA1C79F693002714BC /* listS.png in Resources */,
+				D37E69D41C79F693002714BC /* Battle at the misty valley.mp3 in Resources */,
+				D37E69D91C79F693002714BC /* list.png in Resources */,
+				D37E69D21C79F693002714BC /* Neverending Dream.mp3 in Resources */,
+				D38693691C784000004F125B /* Assets.xcassets in Resources */,
+				D37E69D01C79F693002714BC /* Path of Loneliness.mp3 in Resources */,
+				D37E69DE1C79F693002714BC /* previous.png in Resources */,
+				D37E69D71C79F693002714BC /* Intro.mp3 in Resources */,
+				D37E69DC1C79F693002714BC /* pause.png in Resources */,
+				D37E69D81C79F693002714BC /* Breath of Freedom.mp3 in Resources */,
+				D37E69DB1C79F693002714BC /* next.png in Resources */,
+				D37E69D31C79F693002714BC /* Twilight Poem.mp3 in Resources */,
+				D38693671C784000004F125B /* Main.storyboard in Resources */,
+				D37E69D11C79F693002714BC /* The silent Force.mp3 in Resources */,
+				D35F3EC01C7A0F320025F609 /* 7Lions - Born 2 Run.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38693701C784000004F125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386937B1C784000004F125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386938F1C784113004F125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693C71C78491A004F125B /* Interface.storyboard in Resources */,
+				D38693971C784113004F125B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386939B1C784113004F125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693AB1C784113004F125B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38693561C784000004F125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693C11C7848B9004F125B /* ViewController.swift in Sources */,
+				D3E559751C791C0500FBB37F /* APChartLine.swift in Sources */,
+				D3E559761C791C0500FBB37F /* APChartMarker.swift in Sources */,
+				D3E559791C791C0500FBB37F /* Utils.swift in Sources */,
+				D3E559781C791C0500FBB37F /* APChartView.swift in Sources */,
+				D3E559771C791C0500FBB37F /* APChartPoint.swift in Sources */,
+				D386935E1C784000004F125B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386936E1C784000004F125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693771C784000004F125B /* PulseMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38693791C784000004F125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693821C784000004F125B /* PulseMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38693991C784113004F125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38693A91C784113004F125B /* NotificationController.swift in Sources */,
+				D38693C41C7848DD004F125B /* InterfaceController.swift in Sources */,
+				D38693C51C7848DD004F125B /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38693741C784000004F125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38693591C784000004F125B /* PulseMusic */;
+			targetProxy = D38693731C784000004F125B /* PBXContainerItemProxy */;
+		};
+		D386937F1C784000004F125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38693591C784000004F125B /* PulseMusic */;
+			targetProxy = D386937E1C784000004F125B /* PBXContainerItemProxy */;
+		};
+		D38693A01C784113004F125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D386939C1C784113004F125B /* PulseMusicWatch Extension */;
+			targetProxy = D386939F1C784113004F125B /* PBXContainerItemProxy */;
+		};
+		D38693AE1C784113004F125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38693901C784113004F125B /* PulseMusicWatch */;
+			targetProxy = D38693AD1C784113004F125B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D38693651C784000004F125B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38693661C784000004F125B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D386936A1C784000004F125B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D386936B1C784000004F125B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D38693841C784000004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38693851C784000004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38693871C784000004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015DA39AFD29727B3B3800DE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseMusic/PulseMusic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PulseMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D38693881C784000004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57377E5B36AC0365F1F9F36 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseMusic/PulseMusic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PulseMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		D386938A1C784000004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulseMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseMusic.app/PulseMusic";
+			};
+			name = Debug;
+		};
+		D386938B1C784000004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PulseMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseMusic.app/PulseMusic";
+			};
+			name = Release;
+		};
+		D386938D1C784000004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulseMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PulseMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D386938E1C784000004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PulseMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PulseMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		D38693B11C784113004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PulseMusicWatch Extension/PulseMusicWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PulseMusicWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		D38693B21C784113004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PulseMusicWatch Extension/PulseMusicWatch Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PulseMusicWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		D38693B51C784113004F125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PulseMusicWatch/PulseMusicWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PulseMusicWatch_Extension;
+				INFOPLIST_FILE = PulseMusicWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		D38693B61C784113004F125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PulseMusicWatch/PulseMusicWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PulseMusicWatch_Extension;
+				INFOPLIST_FILE = PulseMusicWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisc.PulseMusic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38693551C784000004F125B /* Build configuration list for PBXProject "PulseMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38693841C784000004F125B /* Debug */,
+				D38693851C784000004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38693861C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38693871C784000004F125B /* Debug */,
+				D38693881C784000004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38693891C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D386938A1C784000004F125B /* Debug */,
+				D386938B1C784000004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D386938C1C784000004F125B /* Build configuration list for PBXNativeTarget "PulseMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D386938D1C784000004F125B /* Debug */,
+				D386938E1C784000004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38693B01C784113004F125B /* Build configuration list for PBXNativeTarget "PulseMusicWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38693B11C784113004F125B /* Debug */,
+				D38693B21C784113004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38693B41C784113004F125B /* Build configuration list for PBXNativeTarget "PulseMusicWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38693B51C784113004F125B /* Debug */,
+				D38693B61C784113004F125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38693521C784000004F125B /* Project object */;
+}
